@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: #fdecea; /* fundo vermelho clarinho */
+    color: #b71c1c; /* vermelho escuro para o texto */
+    font-family: 'Tahoma', sans-serif;
+    min-height: calc(100vh - 40px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(183, 28, 28, 0.2);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header img {
+    max-width: 120px;
+    border-radius: 50%;
+    border: 3px solid #e53935;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+nav a {
+    background-color: #e53935;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #b71c1c;
+}
+
+main {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(183, 28, 28, 0.2);
+    color: #b71c1c;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cliente-card {
+    border: 1px solid #e53935;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(229, 57, 53, 0.15);
+    background-color: #fff0f0;
+}
+
+.cliente-nome {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.cliente-card p {
+    margin-bottom: 6px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.cliente-card p strong {
+    font-weight: 700;
+}

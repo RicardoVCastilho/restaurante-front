@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: #fdecea; /* fundo vermelho clarinho */
+    color: #b71c1c; /* vermelho escuro para o texto */
+    font-family: 'Tahoma', sans-serif;
+    min-height: calc(100vh - 40px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(183, 28, 28, 0.2);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header img {
+    max-width: 120px;
+    border-radius: 50%;
+    border: 3px solid #e53935;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+nav a {
+    background-color: #e53935;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #b71c1c;
+}
+
+main {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(183, 28, 28, 0.2);
+    color: #b71c1c;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pedido-card {
+    border: 1px solid #e53935;
+    border-radius: 12px;
+    padding: 20px 25px;
+    box-shadow: 0 4px 12px rgba(229, 57, 53, 0.15);
+    background-color: #fff0f0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 25px;
+}
+
+.pedido-cliente {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #b71c1c;
+    text-align: center;
+}
+
+.pedido-produto {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: orange;
+}
+
+.valor {
+    font-size: 1.2rem;
+    color: #b71c1c;
+}
+
+.data-pedido {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #9e1b1b;
+}
